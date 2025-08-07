@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Jarvis Web</title>
+    <script src="/static/script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            background-color: #1f1f1f;
+            color: white;
+            cursor: pointer;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        #respuesta {
+            margin-top: 40px;
+            font-size: 20px;
+            line-height: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jarvis</h1>
+    <p>Presiona el botón y háblame</p>
+    <button onclick="iniciarEscucha()">🎙️ Hablar con Jarvis</button>
+    <div id="respuesta"></div>
+</body>
+</html>
